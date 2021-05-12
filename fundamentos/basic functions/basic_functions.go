@@ -9,3 +9,8 @@ func somar(a int, b int) int {
 func imprimir(valor int) {
 	fmt.Println(valor)
 }
+
+func main() {
+	resultado := somar(3, 5)
+	imprimir(resultado)
+}
